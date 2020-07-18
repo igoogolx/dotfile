@@ -1,0 +1,8 @@
+set clipboard+=unnamed
+
+set surround
+set multiple-cursors
+
+onoremap jj <Esc>
+inoremap jj <Esc>
+cnoremap jj <Esc>

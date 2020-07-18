@@ -1,0 +1,143 @@
+{
+    "window.zoomLevel": 0,
+    "files.autoSave": "off",
+
+  // Controls the font size in pixels.
+  "editor.fontSize": 18,
+
+  // Controls the font family.
+  "editor.fontFamily": "Consolas, 'Courier New', monospace",
+
+  // The number of spaces a tab is equal to. This setting is overridden based on the file contents when `editor.detectIndentation` is on.
+  "editor.tabSize": 4,
+
+  // Controls how the editor should render whitespace characters, possibilities are 'none', 'boundary', and 'all'. The 'boundary' option does not render single spaces between words.
+  "editor.renderWhitespace": "none",
+
+  // Controls the cursor style, accepted values are 'block', 'block-outline', 'line', 'line-thin', 'underline' and 'underline-thin'
+  "editor.cursorStyle": "line",
+
+  // The modifier to be used to add multiple cursors with the mouse. `ctrlCmd` maps to `Control` on Windows and Linux and to `Command` on macOS. The Go To Definition and Open Link mouse gestures will adapt such that they do not conflict with the multicursor modifier.
+  "editor.multiCursorModifier": "alt",
+
+  // Insert spaces when pressing Tab. This setting is overridden based on the file contents when `editor.detectIndentation` is on.
+  "editor.insertSpaces": true,
+
+  // Controls how lines should wrap. Can be:
+  //  - 'off' (disable wrapping),
+  //  - 'on' (viewport wrapping),
+  //  - 'wordWrapColumn' (wrap at `editor.wordWrapColumn`) or
+  //  - 'bounded' (wrap at minimum of viewport and `editor.wordWrapColumn`).
+  "editor.wordWrap": "off",
+
+  // Configure glob patterns for excluding files and folders. For example, the files explorer decides which files and folders to show or hide based on this setting.
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true
+  },
+
+  // Configure file associations to languages (e.g. "*.extension": "html"). These have precedence over the default associations of the languages installed.
+  "files.associations": {},
+  // Allows setting breakpoint in any file
+  "debug.allowBreakpointsEverywhere": false,
+
+  // Controls if the floating debug action bar should be hidden
+  "debug.hideActionBar": false,
+
+  // Show variable values inline in editor while debugging
+  "debug.inlineValues": false,
+
+  // Controls behavior of the internal debug console.
+  "debug.internalConsoleOptions": "openOnFirstSessionStart",
+
+  // Controls whether debug view should be open on debugging session start.
+  "debug.openDebug": "openOnFirstSessionStart",
+
+  // Automatically open explorer view on the end of a debug session
+  "debug.openExplorerOnEnd": false,
+
+  // Controls when the debug status bar should be visible
+  "debug.showInStatusBar": "onFirstSessionStart",
+
+  // Global debug launch configuration. Should be used as an alternative to 'launch.json' that is shared across workspaces
+  "launch": {
+    "configurations": [],
+    "compounds": []
+  },
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
+  "git.autofetch": true,
+  "gitlens.historyExplorer.enabled": true,
+  "gitlens.views.fileHistory.enabled": true,
+  "gitlens.views.lineHistory.enabled": true,
+  "editor.minimap.enabled": true,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "remote.SSH.showLoginTerminal": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Visual Studio Dark",
+
+  //Vim config
+  "vim.easymotion": true,
+  "vim.sneak": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before":["H"],
+      "after":["^"]
+    },
+    {
+      "before":["L"],
+      "after":["$"]
+    },
+    {
+      "before":["U"],
+      "after":["C-r"]
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false,
+    "<C-c>": false,
+    "<C-v>": false,
+    "<C-w>": false
+  },
+  "vim.autoSwitchInputMethod.enable": true,
+  "vim.autoSwitchInputMethod.defaultIM": "1033",
+  "vim.autoSwitchInputMethod.obtainIMCmd": "D:\\im-select\\im-select.exe",
+  "vim.autoSwitchInputMethod.switchIMCmd": "D:\\im-select\\im-select.exe {im}",
+
+  "vsicons.dontShowNewVersionMessage": true,
+  "remote.SSH.remotePlatform": {
+    "47.102.139.35": "linux",
+    "45.76.205.140": "linux",
+    "139.180.186.190": "linux",
+    "139.180.157.215": "linux",
+    "45.77.247.184": "linux",
+    "45.32.121.162": "linux",
+    "141.164.54.74": "linux",
+    "141.164.40.177": "linux",
+    "141.164.58.13": "linux",
+    "120.77.136.48": "linux",
+    "141.164.56.254": "linux"
+  },
+  "go.formatTool": "goimports",
+  "go.useLanguageServer": true,
+  "vim.commandLineModeKeyBindingsNonRecursive": [
+  
+  ]
+  }
